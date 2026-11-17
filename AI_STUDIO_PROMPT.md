@@ -1,12 +1,12 @@
 # Prompt for Google AI Studio (Build)
 
-Paste the text between the lines. It points AI Studio to this GitHub repo. If AI Studio says it can't open the links, download the repo (Code › Download ZIP), attach `index.html` and the 6 files in `img/`, and send the same prompt.
+Paste the text between the lines. It points AI Studio to this GitHub repo. If AI Studio says it can't open the links, download the repo (Code › Download ZIP), attach `index.html` and the 4 files in `img/`, and send the same prompt.
 
 ---
 
 The source of this page is in the public GitHub repo https://github.com/AlexisLeza/reroof-landing:
 - Page: https://raw.githubusercontent.com/AlexisLeza/reroof-landing/main/index.html
-- Images: https://raw.githubusercontent.com/AlexisLeza/reroof-landing/main/img/logo.jpg, and job-metal.webp, job-tile.webp, job-shingle.webp, job-decking.webp, job-rot.webp in the same `img/` folder.
+- Images: https://raw.githubusercontent.com/AlexisLeza/reroof-landing/main/img/logo.jpg, and roof-gray.webp, roof-valley.webp, roof-ridge.webp in the same `img/` folder.
 
 Copy the images into the app's own assets; don't hotlink them. If you can't read these links, tell me and I'll attach the files.
 
@@ -20,7 +20,7 @@ Rebuild this landing page as a production app. It is the landing page for paid G
 
 **Keep exactly as they are**
 - every word of copy, every heading, the order of the sections, the colors, fonts and layout of `index.html`. Do not add, remove or rewrite any claim, number, review, offer term or legal line. Do not add stock photos, icons of fake badges, testimonials, counters or "limited time" banners.
-- The 6 images (logo.jpg and five job-*.webp photos), with their captions and alt text.
+- The 4 images (logo.jpg and three roof-*.webp photos), with their captions and alt text.
 - The phone number (786) 600-4721 and its `tel:+17866004721` links, the license line "Lic. CCC1332456", and the footer offer terms.
 - `<meta name="robots" content="noindex, nofollow">`.
 - The mobile layout: single column under 860px and the sticky "Call / Get my price" bar at the bottom.
