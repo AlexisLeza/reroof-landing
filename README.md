@@ -1,6 +1,6 @@
 # Southwest Roofing Solutions: re-roof landing page
 
-Single static page for the Miami-Dade Google and Meta ads. Target URL: `southwestrs.com/re-roof`.
+Single static page for the Miami-Dade Google and Meta ads. Standalone: it does not change the existing southwestrs.com website.
 
 - `index.html`: the whole page (inline CSS, no build step)
 - `img/`: logo and five real job photos (from the client's Drive, `Real Pictures/`)

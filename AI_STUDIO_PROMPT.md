@@ -6,6 +6,12 @@ Attach `index.html` and the 6 files in `img/` to the chat, then paste this:
 
 Rebuild the attached landing page as a production app. It is the landing page for paid Google and Meta ads for Southwest Roofing Solutions, a roofer in Miami-Dade, and it is already approved by the client. Your job is to make it work, not to redesign it.
 
+**Scope: this one page only**
+- Build a separate, standalone app that contains only this landing page. It is a new page that sits beside the client's existing website; it does not replace it.
+- Do not touch, rebuild, restyle, crawl, import from or link into the existing website (southwestrs.com) or any of its pages, menus, files, hosting or DNS. Do not add other pages, a navigation menu, a blog or a sitemap.
+- The only links that leave this page are the `tel:` links. The logo is not a link.
+- If something seems to need a change on the main website, stop and tell me instead of doing it.
+
 **Keep exactly as they are**
 - Every word of copy, every heading, the order of the sections, the colors, fonts and layout of the attached `index.html`. Do not add, remove or rewrite any claim, number, review, offer term or legal line. Do not add stock photos, icons of fake badges, testimonials, counters or "limited time" banners.
 - The 6 images in `img/` (logo.jpg and five job-*.webp photos), with their captions and alt text.
@@ -43,4 +49,4 @@ Rebuild the attached landing page as a production app. It is the landing page fo
 | `GOOGLE_ADS_LEAD_LABEL`, `GOOGLE_ADS_CALL_LABEL` | One conversion action each: "Form lead" and "Call click" |
 | `META_PIXEL_ID` | Meta Events Manager › the client's dataset |
 
-After it is live, point `southwestrs.com/re-roof` at it (or use the Cloud Run URL as the ads' final URL), send one test lead, and check that it reaches the CRM and shows in both ad platforms before turning the ads on.
+After it is live, use the Cloud Run URL as the ads' final URL. That leaves the website exactly as it is. Later, if you want a branded address, add a subdomain such as `oferta.southwestrs.com` that points only to this app. A new DNS record doesn't change the existing site. Send one test lead and check that it reaches the CRM and shows in both ad platforms before turning the ads on.
