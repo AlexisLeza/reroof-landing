@@ -3,7 +3,7 @@
 Single static page for the Miami-Dade Google and Meta ads. Standalone: it does not change the existing southwestrs.com website.
 
 - `index.html`: the whole page (inline CSS, no build step)
-- `img/`: logo and three photos of finished roofs (from the client's Drive, `Real Pictures/`)
+- `img/`: logo and three photos of finished roofs (shingle and tile) (from the client's Drive, `Real Pictures/`)
 
 ## Before ads spend
 

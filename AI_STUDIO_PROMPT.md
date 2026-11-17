@@ -6,7 +6,7 @@ Paste the text between the lines. It points AI Studio to this GitHub repo. If AI
 
 The source of this page is in the public GitHub repo https://github.com/AlexisLeza/reroof-landing:
 - Page: https://raw.githubusercontent.com/AlexisLeza/reroof-landing/main/index.html
-- Images: https://raw.githubusercontent.com/AlexisLeza/reroof-landing/main/img/logo.jpg, and roof-gray.webp, roof-valley.webp, roof-ridge.webp in the same `img/` folder.
+- Images: https://raw.githubusercontent.com/AlexisLeza/reroof-landing/main/img/logo.jpg, and roof-gray.webp, roof-tile.webp, roof-ridge.webp in the same `img/` folder.
 
 Copy the images into the app's own assets; don't hotlink them. If you can't read these links, tell me and I'll attach the files.
 
