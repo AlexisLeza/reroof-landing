@@ -1,10 +1,16 @@
 # Prompt for Google AI Studio (Build)
 
-Attach `index.html` and the 6 files in `img/` to the chat, then paste this:
+Paste the text between the lines. It points AI Studio to this GitHub repo. If AI Studio says it can't open the links, download the repo (Code › Download ZIP), attach `index.html` and the 6 files in `img/`, and send the same prompt.
 
 ---
 
-Rebuild the attached landing page as a production app. It is the landing page for paid Google and Meta ads for Southwest Roofing Solutions, a roofer in Miami-Dade, and it is already approved by the client. Your job is to make it work, not to redesign it.
+The source of this page is in the public GitHub repo https://github.com/AlexisLeza/reroof-landing:
+- Page: https://raw.githubusercontent.com/AlexisLeza/reroof-landing/main/index.html
+- Images: https://raw.githubusercontent.com/AlexisLeza/reroof-landing/main/img/logo.jpg, and job-metal.webp, job-tile.webp, job-shingle.webp, job-decking.webp, job-rot.webp in the same `img/` folder.
+
+Copy the images into the app's own assets; don't hotlink them. If you can't read these links, tell me and I'll attach the files.
+
+Rebuild this landing page as a production app. It is the landing page for paid Google and Meta ads for Southwest Roofing Solutions, a roofer in Miami-Dade, and it is already approved by the client. Your job is to make it work, not to redesign it.
 
 **Scope: this one page only**
 - Build a separate, standalone app that contains only this landing page. It is a new page that sits beside the client's existing website; it does not replace it.
@@ -13,8 +19,8 @@ Rebuild the attached landing page as a production app. It is the landing page fo
 - If something seems to need a change on the main website, stop and tell me instead of doing it.
 
 **Keep exactly as they are**
-- Every word of copy, every heading, the order of the sections, the colors, fonts and layout of the attached `index.html`. Do not add, remove or rewrite any claim, number, review, offer term or legal line. Do not add stock photos, icons of fake badges, testimonials, counters or "limited time" banners.
-- The 6 images in `img/` (logo.jpg and five job-*.webp photos), with their captions and alt text.
+- every word of copy, every heading, the order of the sections, the colors, fonts and layout of `index.html`. Do not add, remove or rewrite any claim, number, review, offer term or legal line. Do not add stock photos, icons of fake badges, testimonials, counters or "limited time" banners.
+- The 6 images (logo.jpg and five job-*.webp photos), with their captions and alt text.
 - The phone number (786) 600-4721 and its `tel:+17866004721` links, the license line "Lic. CCC1332456", and the footer offer terms.
 - `<meta name="robots" content="noindex, nofollow">`.
 - The mobile layout: single column under 860px and the sticky "Call / Get my price" bar at the bottom.
