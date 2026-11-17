@@ -42,7 +42,7 @@ Rebuild this landing page as a production app. It is the landing page for paid G
 - No console errors. Works without JavaScript enough that the phone links still call.
 
 **Deliver**
-- Deploy it (Cloud Run), give me the public URL, and list the four environment variables I need to fill in.
+- Deploy it (Cloud Run), give me the public URL, and list the five environment variables I need to fill in.
 
 ---
 
